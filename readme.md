@@ -20,3 +20,6 @@ docker build -t demo-docker-app .
 
 # Run the container
 docker run -p 3000:3000 demo-docker-app
+```
+Then go to:
+http://localhost:3000 – You should see Hello from Dockerised Node.js App!.
